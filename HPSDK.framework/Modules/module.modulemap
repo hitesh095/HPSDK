@@ -1,0 +1,11 @@
+framework module HPSDK {
+  umbrella header "HPSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module HPSDK.Swift {
+    header "HPSDK-Swift.h"
+    requires objc
+}
